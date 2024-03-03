@@ -65,21 +65,33 @@ print(f"El valor a pagar es: ${importe}, el descuento aplicado es: {descAplicado
 '''
 
 #3
-import random
+'''import random
 
 pares=[]
 impares=[]
 tupla=(1,2,3,4,5,6,7,8,9)
 
-nrandom=random.randint(1,100)
 
-print(f"Número random: {nrandom}")
-for nramdom in tupla:
-    n=tupla*nrandom
-if n / 2 == 0:
-    pares.append()
-elif n/ 2 != 0:
-    impares.append()
 
-print(f"{tupla} x {nrandom} = {n}")
-print(pares,impares)
+for n in tupla:
+    nrandom=random.randint(1,100)
+    result= n*nrandom
+    print(f"Número random: {nrandom}")
+    print(f"{n} x {nrandom} = {result}")
+    
+    if result % 2 == 0:
+        pares.append(result)
+    elif result % 2 != 0:
+        impares.append(result)
+
+print(f"Lista de pares: {pares}, Lista de impares: {impares}")'''
+
+#4
+'''
+Una lotería genera 6 números aleatorios del 1 al 35, estos números deben guardarse en una lista; dentro de la lista no deben reperirse números, si se repite un número este debe volver a generarse y guardar en la lista.
+Mostrar los 6 números ganadores de la lotería de forma ordenada.
+'''
+
+import random
+
+
