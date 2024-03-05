@@ -38,7 +38,9 @@ print(f"Valor {total}")
 importe=(total*tax/100)+total
 print(f"El valor a pagar es: ${importe}, el descuento aplicado es: {descAplicado}, tax: {tax}%.")
 '''
-'''#2
+
+#2
+'''
 tax=15
 consumo=float(input("Valor del consumo del cliente: "))
 importe=0.0
