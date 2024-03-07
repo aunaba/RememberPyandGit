@@ -34,7 +34,7 @@ per2.edad=23
 per2.movil=3001234567'''
 
 
-per1=Class_Persona('Juan',27,323123456)
+'''per1=Class_Persona('Juan',27,323123456)
 per2=Class_Persona('Carol', 23,3001234567)
 per3=Class_Persona('Noa',5,30054321)
 
@@ -43,4 +43,4 @@ per1.getDatos()
 print('*'*10)
 per2.getDatos()
 print('*'*10)
-per3.getDatos()
+per3.getDatos()'''
