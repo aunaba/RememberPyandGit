@@ -5,21 +5,27 @@ class Class_Persona:
     edad=None
     movil=None'''
     
+    #Puedo poner los datos privados para que no puedan modificarse desde ningún archivo fuera de la clase usando la expresión __nombreObjeto = None, ejm:
+    
+    __nombre=None
+    __edad=None
+    __movil=None
+    
     #Atributos con datos inicializados:
     #Constructores.
     #Recibe self, que llama cualquier variable de la clase y atributos que quiero inicializar
     def __init__(self,nom,ed,mov ):
-        self.nombre =nom
-        self.edad=ed
-        self.movil=mov
+        self.__nombre =nom
+        self.__edad=ed
+        self.__movil=mov
         #al crear ésta función o constructor no es necesario tener variables globales por que se detecta automaticaente el constructor _init_()
         #Al tener éste objeto, se deben enviar los parámetros
         
                 
     def getDatos(self):
-        print('Nombre: ', self.nombre)
-        print('Edad: ', self.edad)
-        print('Movil: ', self.movil)
+        print('Nombre: ', self.__nombre)
+        print('Edad: ', self.__edad)
+        print('Movil: ', self.__movil)
 
 
 #Como se ha creado un constructor _init_():, es necesario enviar los datos a la clase, por lo cual de ésta manera genera un error.  
