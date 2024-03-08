@@ -25,12 +25,23 @@ print(type(()))
 print(type({}))
 '''
 
-#Clase Player()
-player1=Player('Juan', 27)
+'''#Clase Player()
+player1=Player('Juan', 27) 
 player2=Player('Carol', 23)
 print(player1.nombre)
 print(Player.membresia)
 print(Player.agregar_datos(1000))
 print(Player.agregar_datos2(2000))
+'''
 
 
+'''player1=Player('Juan', 27) 
+player2=Player('Carol', 23)
+
+player1.score=1800
+
+player1.nombre='otro'
+print(player1.nombre)
+print(player2.nombre)
+print(player1.score)
+'''
