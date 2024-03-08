@@ -13,7 +13,7 @@ def contador_atras(numero):
     if(numero>0):
         print(numero)
         contador_atras(numero)
-    else():
+    else:
         print("Fin")
     
     print(f"Liberación: {numero}")
